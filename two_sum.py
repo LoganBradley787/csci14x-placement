@@ -4,3 +4,4 @@ def two_sum(numbers, target):
         for j in range(i+1, len(numbers)):
             if numbers[j] + v == target:
                 return [i, j]
+    raise ValueError("bruh")

@@ -21,7 +21,7 @@ class TestTwoSum(unittest.TestCase):
     def test_duplicate_numbers(self):
         # Case with duplicate numbers that can be part of the solution
         self.assertEqual(set(two_sum([4, 4], 8)), {0, 1})
-        self.assertEqual(set(two_sum([1, 3, 3, 5], 6)), {1, 2})
+        self.assertEqual(set(two_sum([1, 3, 3, 7], 6)), {1, 2})
 
 if __name__ == '__main__':
     unittest.main()

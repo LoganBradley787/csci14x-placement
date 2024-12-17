@@ -1,4 +1,6 @@
 def nth_prime(n):
+  if n < 1:
+    raise ValueError("bruh")
   num = 1
   if n == 1:
     return 2
